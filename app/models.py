@@ -16,8 +16,8 @@ class Book(models.Model):
     )
 
     class Meta:
-        verbose_name = u'Libro'
-        verbose_name_plural = u'Libros'
+        verbose_name = 'Libro'
+        verbose_name_plural = 'Libros'
 
 class Author(models.Model):
     DOCUMENT_TYPE_CHOICES = (
@@ -39,6 +39,6 @@ class Author(models.Model):
     )
 
     class Meta:
-        verbose_name = u'autor',
-        verbose_name_plural = u'autores'
+        verbose_name = 'autor',
+        verbose_name_plural = 'autores'
 
